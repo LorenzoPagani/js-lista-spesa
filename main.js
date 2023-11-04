@@ -12,14 +12,11 @@ const shoppingList = [
 ]
 const cart = document.getElementById('cart')
 let i = 0
+
 while (i < shoppingList.length) {
   const checkbox = `<input type="checkbox" class= "checkbox" id= "${shoppingList[i]}" >`
   const listItem = `<li class="list-group-item">${checkbox} <label for="${shoppingList[i]}">${shoppingList[i]}</label></li>`
   cart.innerHTML += listItem
-  /* if (i%2 == 0) {
-        listItem.style.color = "red";
-    } */
-  console.log(shoppingList[i])
   i++
 }
 

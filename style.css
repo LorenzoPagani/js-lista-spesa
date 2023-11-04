@@ -7,13 +7,15 @@ body {
     color: antiquewhite;
 }
 
-
 li {
     list-style: none;
 }
 
+li *:hover {
+    cursor: pointer;
+
+}
 
 .barred {
     text-decoration: line-through;
 }
-
